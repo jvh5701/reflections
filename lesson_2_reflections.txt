@@ -11,3 +11,8 @@ A commit will add the staging area to the repository.  The working directory is 
 allows users to fine tune which changes are included in any given commit to the
 repository.
 
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+You can add only the files that were edited in the logical change to the staging
+area rather than every file that was changed since the last commit. 
