@@ -1,18 +1,28 @@
-What happens when you initialize a repository? Why do you need to do it?
+1. What happens when you initialize a repository? Why do you need to do
+it?
 
-When a repository is initialized, the .git directory is created.  You need to 
-do this so that the relevant data for git is created. 
+When a repository is initialized, the .git directory is created.  You
+need to do this so that the relevant data for git is created.
 
-How is the staging area different from the working directory and repository? 
-What value do you think it offers?
+2. How is the staging area different from the working directory and
+repository? What value do you think it offers?
 
-The staging area is the place to which items are added prior to making a commit.
-A commit will add the staging area to the repository.  The working directory is simply the directory in which the files exist.  The concept of a staging area
-allows users to fine tune which changes are included in any given commit to the
-repository.
+The staging area is the place to which items are added prior to making a
+commit. A commit will add the files in the staging area to the
+repository.  The working directory is simply the directory in which the
+files exist.  The concept of a staging area allows users to fine tune
+which changes are included in any given commit to the repository.
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+3. How can you use the staging area to make sure you have one commit per
+logical change?
 
-You can add only the files that were edited in the logical change to the staging
-area rather than every file that was changed since the last commit. 
+You can add only the files that were edited in the logical change to the
+staging area rather than every file that was changed since the last
+commit.
+
+4. What are some situations when branches would be helpful in keeping
+your history organized? How would branches help?
+
+Branches would be helpful in working on an experimental change without
+affecting the master branch.  Branches would help by isolating any
+changes from the master branch.
