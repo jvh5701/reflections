@@ -24,5 +24,7 @@ commit.
 your history organized? How would branches help?
 
 Branches would be helpful in working on an experimental change without
-affecting the master branch.  Branches would help by isolating any
-changes from the master branch.
+affecting the master branch, or when working on a version of a program
+that is different from the production version.  A master branch could
+represent production code while a development branch could be used to
+test features for a regularly scheduled code release.
