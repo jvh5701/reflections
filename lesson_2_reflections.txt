@@ -37,3 +37,11 @@ as a straight line. Any branches shoot off from one of the master branch
 commits.  The branch can continue until it is merged back into the
 master branch.  Diagrams can also be a useful tool to see what commits
 are unreachable from a given point on the tree structure.  
+
+6. What is the result of merging two branches together? Why do we represent the 
+diagram the way we do?
+
+When two branches are merged together, the commits combined and any files 
+with differences between the two branches are combined where possible. The 
+resulting commit can now be used to traverse the commits of either branch. The 
+diagram is represented the way it is, since both branches are being combined.
