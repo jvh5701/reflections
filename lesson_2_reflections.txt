@@ -28,3 +28,12 @@ affecting the master branch, or when working on a version of a program
 that is different from the production version.  A master branch could
 represent production code while a development branch could be used to
 test features for a regularly scheduled code release.
+
+5. How do the diagrams help you visualize the branch structure?
+
+Diagrams are a useful tool in seeing how individual commits make up a
+branch.  A diagram can illustrate a branch by showing the master branch
+as a straight line. Any branches shoot off from one of the master branch
+commits.  The branch can continue until it is merged back into the
+master branch.  Diagrams can also be a useful tool to see what commits
+are unreachable from a given point on the tree structure.  
