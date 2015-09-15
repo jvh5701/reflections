@@ -12,3 +12,13 @@ Manually triggering a pull allows users to choose specifically when they want
 new code to apper on their local machines.  This could be because they 
 are on a limited network connection or because they don't want other changes 
 interfering with their local environment.
+
+3. Describe the differences between forks, clones, and branches. When would 
+you use one instead of another?
+
+Forks and clones are closely related.  A fork is merely a type of clone that
+exists on GitHub.  A branch is another string of commits within a repository.
+One might use a branch when testing an experimental feature within a project.
+One might use a fork when attempting to make another project based off of an
+existing GitHub project.  Forking allows a user to maintain their own 
+independent path while referencing the original project.
