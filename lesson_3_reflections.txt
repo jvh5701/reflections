@@ -22,3 +22,11 @@ One might use a branch when testing an experimental feature within a project.
 One might use a fork when attempting to make another project based off of an
 existing GitHub project.  Forking allows a user to maintain their own 
 independent path while referencing the original project.
+
+4. What is the benefit of having a copy of the last known state of the remote 
+stored locally?
+
+The benefit of storing the last known state of the remote locally is offline
+access.  The local version of the remote is a cache that can allow later 
+review of any commits that were made before the remote was pulled but
+before the user had a chance to review.
