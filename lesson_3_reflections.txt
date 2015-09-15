@@ -8,25 +8,36 @@ source.
 2. Why might you want to always pull changes manually rather than having
 Git automatically stay up-to-date with your remote repository?
 
-Manually triggering a pull allows users to choose specifically when they want
-new code to apper on their local machines.  This could be because they 
-are on a limited network connection or because they don't want other changes 
-interfering with their local environment.
+Manually triggering a pull allows users to choose specifically when they
+want new code to apper on their local machines.  This could be because
+they are on a limited network connection or because they don't want
+other changes interfering with their local environment.
 
-3. Describe the differences between forks, clones, and branches. When would 
-you use one instead of another?
+3. Describe the differences between forks, clones, and branches. When
+would you use one instead of another?
 
-Forks and clones are closely related.  A fork is merely a type of clone that
-exists on GitHub.  A branch is another string of commits within a repository.
-One might use a branch when testing an experimental feature within a project.
-One might use a fork when attempting to make another project based off of an
-existing GitHub project.  Forking allows a user to maintain their own 
-independent path while referencing the original project.
+Forks and clones are closely related.  A fork is merely a type of clone
+that exists on GitHub.  A branch is another string of commits within a
+repository. One might use a branch when testing an experimental feature
+within a project. One might use a fork when attempting to make another
+project based off of an existing GitHub project.  Forking allows a user
+to maintain their own independent path while referencing the original
+project.
 
-4. What is the benefit of having a copy of the last known state of the remote 
-stored locally?
+4. What is the benefit of having a copy of the last known state of the
+remote stored locally?
 
-The benefit of storing the last known state of the remote locally is offline
-access.  The local version of the remote is a cache that can allow later 
-review of any commits that were made before the remote was pulled but
-before the user had a chance to review.
+The benefit of storing the last known state of the remote locally is
+offline access.  The local version of the remote is a cache that can
+allow later review of any commits that were made before the remote was
+pulled but before the user had a chance to review.
+
+5. How would you collaborate without using Git or GitHub? What would be
+easier, and what would be harder?
+
+Without using Git or GitHub, I might collaborate using another version
+control system like Google Drive.  Otherwise, files might be exchanged
+using email or a shared folder.  This would generally be harder than
+using Git and GitHub, as these methods lack merging capabilities and do
+not necessarily maintain a version history as detailed as the level of
+commits.
