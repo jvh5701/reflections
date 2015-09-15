@@ -41,3 +41,15 @@ using email or a shared folder.  This would generally be harder than
 using Git and GitHub, as these methods lack merging capabilities and do
 not necessarily maintain a version history as detailed as the level of
 commits.
+
+6. When would you want to make changes in a separate branch rather than 
+directly in master? What benefits does each approach have?
+
+Separate branches allow for feature testing outside of the main code 
+branch.  For instance, a project might view the master branch as the 
+production version of the project.  A branch might be created for 
+development, where changes could be made and tested.  This allows for
+separation of a version that needs tested and verified from the working
+production version of the project.  This does add overhead, however, 
+and working directly in master is an approach that is perhaps more 
+suited to smaller or independant software projects.
